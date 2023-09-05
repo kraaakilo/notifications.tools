@@ -1,0 +1,8 @@
+[
+  {
+    "name" : "Générateur de notifications Stripe",
+    "link" : "/tools/stripe-notification-generator",
+    "id" : "stripe-notification-generator",
+    "description" : "Générer de fausses notifications de paiement Stripe pour tromper vos amis ou réaliser vos objectifs."
+  }
+]

@@ -1,7 +1,6 @@
 import './global.css'
 import type {Metadata} from 'next'
-import {Inter, Lato} from 'next/font/google'
-import Navbar from "@/components/Navbar";
+import {Inter} from 'next/font/google'
 import Head from "next/head";
 
 const inter = Inter({subsets: ["latin"]});
@@ -11,9 +10,7 @@ export const metadata: Metadata = {
     description: 'Générez vos notifications facilement.',
 }
 
-export default function RootLayout({
-                                       children,
-                                   }: {
+export default function RootLayout({children}: {
     children: React.ReactNode
 }) {
     return (
@@ -26,8 +23,7 @@ export default function RootLayout({
                 rel="stylesheet"/>
         </Head>
         <body>
-        <Navbar/>
-        {children}
+            {children}
         </body>
         </html>
     )

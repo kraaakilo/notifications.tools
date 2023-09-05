@@ -79,3 +79,10 @@
 body {
     font-family: "Inter", sans-serif;
 }
+
+.radial-gradient{
+    background-image: radial-gradient(#c2c2c2 .7px,#fff 1px);
+    background-size: 14px 14px;
+    min-height: 100vh;
+    padding-top: 48px;
+}
